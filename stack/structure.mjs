@@ -1,4 +1,4 @@
-class Stack {
+export class Stack {
   #count = 0;
   #items = {};
   push(element) {
@@ -37,13 +37,14 @@ class Stack {
   }
 }
 
-const stack = new Stack();
-stack.push("Leandro");
-console.log(stack.peek());
-console.log(stack.size())
-stack.push("Maria");
-console.log(stack.toSring())
-console.log(stack.isEmpty())
-console.log(stack.pop())
-console.log(stack.pop())
-console.log(stack.isEmpty())
+// using the stack
+// const stack = new Stack();
+// stack.push("Leandro");
+// console.log(stack.peek());
+// console.log(stack.size())
+// stack.push("Maria");
+// console.log(stack.toSring())
+// console.log(stack.isEmpty())
+// console.log(stack.pop())
+// console.log(stack.pop())
+// console.log(stack.isEmpty())
